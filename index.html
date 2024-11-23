@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coexist - AI Ethics Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coexist - AI Ethics Guide</h1>
+        <textarea id="aiResponse" rows="4" placeholder="Type AI response here..."></textarea><br><br>
+        <textarea id="dataHandling" rows="2" placeholder="Type AI's data handling policy..."></textarea><br><br>
+        <button id="evaluateBtn">Evaluate Ethics</button>
+
+        <div id="result" class="result" style="display:none;">
+            <h3>Ethics Evaluation Report:</h3>
+            <p id="transparencyResult"></p>
+            <p id="biasResult"></p>
+            <p id="empathyResult"></p>
+            <p id="privacyResult"></p>
+            <p id="culturalResult"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
