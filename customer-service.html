@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Bot - Coexist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Customer Service Bot</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="emotional-support.html">Emotional Support Bot</a>
+            <a href="ai-companion.html">AI Companion Bot</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="chat-container" style="display: block;">
+            <div id="chat-log">
+                <p class="ai"><strong>AI:</strong> Welcome! How can I assist you with your customer service needs today?</p>
+            </div>
+            <input type="text" id="user-input" placeholder="Type your query here">
+            <button onclick="processChat('customer')">Send</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Coexist. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
